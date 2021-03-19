@@ -40,5 +40,21 @@ dependencies {
     //Repositorios extra
 
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.3.1'
+    implementation 'com.google.android.gms:play-services-identity:11.8.0'
+
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+
+
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+
+    implementation files('libs/google-api-client-1.31.3.jar')
+    implementation files('libs/google-api-services-gmail-v1-rev110-1.25.0.jar')
 
 }
