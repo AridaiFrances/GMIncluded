@@ -101,7 +101,9 @@ public class Mail extends javax.mail.Authenticator {
 
 
 
+
         _debuggable = false; // debug mode on or off - default off
+
         _auth = true; // smtp authentication - default on
 
         multipart = new MimeMultipart();

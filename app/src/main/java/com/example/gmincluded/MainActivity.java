@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         txtContenido = (EditText) findViewById(R.id.edtContenido);
 
         btEnviar.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 destinatario = txtDestinatario.getText().toString();

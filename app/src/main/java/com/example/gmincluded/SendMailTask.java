@@ -42,6 +42,7 @@ public class SendMailTask extends AsyncTask {
             Log.e("SendMailTask", e.getMessage(), e);
             Toast.makeText(sendMailActivity, "Oops, algo no ha ido bien!", Toast.LENGTH_LONG).show();
         }
+
         return null;
     }
 
