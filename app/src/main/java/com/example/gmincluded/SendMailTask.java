@@ -15,7 +15,7 @@ public class SendMailTask extends AsyncTask {
     private String asunto;
     private String contenido;
 
-
+//hago un cambio
     private Activity sendMailActivity;
 
 
